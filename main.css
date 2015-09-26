@@ -1,8 +1,9 @@
 header {
+  display: inline-block;
 
 }
 body {
-
+  margin: 0;
 
 }
 
@@ -19,32 +20,77 @@ body {
   margin: 10px;
 
   }
-
-  .Columns {
-    list-style: none;
-    display: inline-block;
-    width: 100%;
-    float: left;
-    border: 2px solid black;
     
-  }
+    .boxes {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 300px; 
+      list-style: none;
   
+  }
 
-  .Text {
-    list-style: none;
+  .container {
+
     display: inline-block;
+    margin: 10px; 
+    vertical-align: middle;
+  }
+
+    
+
+
+
+  ul {
+    list-style: none;
+  }
+
+    .greenbox {
+      background-color: green;
+      height: 250px;
+      width: 250px;
+      color: white;
+      
+    }
+
+      .greenboxtext {
+        
+ }
+
+    .bluebox {
+      background-color: blue;
+      height: 250px;
+      width: 250px;
+      color: white;
+      
+    }
+
+    .blackbox {
+      background-color: black;
+      height: 250px;
+      width: 250px;
+      color: white;
+      
+    }
+
+
+  .latin {
+    list-style: none;
+    display: block;
     width: 30%;
     float: left;
     overflow: hidden;
 
   }
 
-  li {
-    list-style: none;
-  }
+  
+  
 
   footer { 
     display: inline-block;
     position: relative;
 
   }
+    
+      
