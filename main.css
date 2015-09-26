@@ -1,0 +1,50 @@
+header {
+
+}
+body {
+
+
+}
+
+ .background-image {
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 1400px 450px;
+  width: 100%;
+  height: 200px;  
+  text-align: center;
+  padding-top: 40px;
+  font-size: xx-large;
+  color: white;
+  margin: 10px;
+
+  }
+
+  .Columns {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    border: 2px solid black;
+    
+  }
+  
+
+  .Text {
+    list-style: none;
+    display: inline-block;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+
+  }
+
+  li {
+    list-style: none;
+  }
+
+  footer { 
+    display: inline-block;
+    position: relative;
+
+  }
