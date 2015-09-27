@@ -91,7 +91,7 @@ body {
   
 
     .greenbox {
-      background-color: green;
+      background-color: #3CA238;
       height: 175px;
       width: 250px;
       color: white;
@@ -142,7 +142,7 @@ body {
               
 
     .bluebox {
-      background-color: blue;
+      background-color: #3937FF;
       height: 175px;
       width: 250px;
       color: white;
@@ -234,10 +234,27 @@ body {
   
   
 
-  footer { 
-    display: inline-block;
-    position: relative;
-
+  footer {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: gray; 
+    font-family: 'Roboto+Condensed';
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: -5px;
   }
+
+  .footertext a {
+    color: white;
+    
+  }
+
+
+  
+
+  
+
     
       
