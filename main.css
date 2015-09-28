@@ -104,24 +104,23 @@ body {
       }
 
       .greenbox li {
-        list-style: none;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        list-style: none;  
 
       }
 
       .personal {
           padding-top: 25px;
-          padding-bottom: 50px; 
+          padding-bottom: 5px; 
         }
 
-      .5 a {
-          font-size: 85px;
+      .five {
+          font-size: 60px;
+          padding-top: 5px;
         
         }
 
-       .permonth {
-          padding-top: 40px;
+       .permonthgreen {
+          padding-top: 10px;
         }
 
       .greenboxtext ul {
@@ -130,11 +129,17 @@ body {
         }
 
       .greenboxtext li {
-
+        padding-top: 5px;
+        padding-bottom: 5px;
         border: 1px solid black;
         list-style: none;
+        background-color: #DFDFDF;
         
-        }        
+        } 
+
+        .buttongreen {
+          height: 45px;
+        }       
 
       .bluebox {
       background-color: #3937FF;
@@ -142,34 +147,34 @@ body {
       width: 250px;
       color: white;
       list-style: none;
-      vertical-align: center;
+      vertical-align: middle;
     
     }
 
       .bluebox ul {
       margin: 0;
       list-style: none;
+      padding-left: 0;
     }
 
       .bluebox li {
       list-style: none;
       width: 100%;
-      padding-top: 8px;
-      padding-bottom: 8px;
 
       }
 
      .smallbusiness {
-        padding-top: 25;
-        padding-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 5px;
       }
 
-     .25 {
-        font-size: 85px;
+     .twentyfive {
+        font-size: 60px;
+        padding-top: 5px;
       }
 
-     .permonth {
-        padding-top: 40px;
+     .permonthblue {
+        padding-top: 10px;
       }
 
      .blueboxtext ul {
@@ -179,7 +184,14 @@ body {
      .blueboxtext li {
       border: 1px solid black;
       list-style: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #DFDFDF;
 
+      }
+
+      .buttonblue {
+        height: 45px;
       }
   
      .blackbox {
@@ -201,16 +213,25 @@ body {
      .blackbox li {
       list-style: none;
       width: 100%;
-      padding-top: 8px;
-      padding-bottom: 8px;
 
       }
 
      .enterprise {
       padding-top: 25px;
-      padding-bottom: 50px;
+      padding-bottom: 5px;
 
       }
+
+      .fortyfive {
+        font-size: 60px;
+        padding-top: 5px;
+
+      }
+
+      .permonthblack {
+        padding-top: 10px;
+      }
+      
 
      .blackboxtext ul {
       padding-left: 0;
@@ -220,8 +241,21 @@ body {
      .blackboxtext li {
       border: 1px solid black;
       list-style: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #DFDFDF;
 
     }
+
+        .buttonblack {
+          height: 45px;
+          vertical-align: middle;
+          background-color: #F2F2F2;
+          
+        }
+    
+
+  
 
   .paragraphs {
     width: 350px;
