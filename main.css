@@ -1,5 +1,6 @@
 body {
   width: 100%
+
 }
 
   .yourlogo {
@@ -10,7 +11,6 @@ body {
     font-family: 'ubuntu:300';
     color: #777D83;
   }
-  
 
   .headernavigation {
     list-style: none;
@@ -19,7 +19,6 @@ body {
     font-size: 12px;
     display: inline-block;
     font-family: 'ubuntu:300';
-
 
     }
 
@@ -38,21 +37,20 @@ body {
 
   }
 
-    .home a {
+   .home a {
       color: #777D83;
     }
 
-    .pricing a {
+   .pricing a {
       color: black;
       font-weight: bold;
     
   }
 
-    .contact a {
+   .contact a {
       color: #777D83;
 
     }
-
 
  .background-image {
   background-image: url('images/background.jpg');
@@ -84,19 +82,18 @@ body {
     text-align: center;
   }
 
-    .container ul {
+   .container ul {
     width: 100%;
 
   }
-  
 
-    .greenbox {
+   .greenbox {
       background-color: #3CA238;
       height: 175px;
       width: 250px;
       color: white;
       list-style: none;
-
+      vertical-align: middle;
       
     }
 
@@ -108,131 +105,163 @@ body {
 
       .greenbox li {
         list-style: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
 
       }
 
-        .personal {
+      .personal {
           padding-top: 25px;
           padding-bottom: 50px; 
         }
 
-        .5 a {
-          font-size: 125%;
+      .5 a {
+          font-size: 85px;
         
         }
 
-        .permonth {
+       .permonth {
           padding-top: 40px;
         }
 
       .greenboxtext ul {
         padding-left: 0;
 
-      }
-
-      
+        }
 
       .greenboxtext li {
 
         border: 1px solid black;
         list-style: none;
         
- }
+        }        
 
-              
-
-    .bluebox {
+      .bluebox {
       background-color: #3937FF;
       height: 175px;
       width: 250px;
       color: white;
       list-style: none;
+      vertical-align: center;
+    
     }
 
-    .bluebox ul {
+      .bluebox ul {
       margin: 0;
       list-style: none;
     }
 
-      
-    }
-
-    .bluebox li {
+      .bluebox li {
       list-style: none;
       width: 100%;
+      padding-top: 8px;
+      padding-bottom: 8px;
 
-    }
+      }
 
-      .smallbusiness {
+     .smallbusiness {
         padding-top: 25;
         padding-bottom: 50px;
       }
 
-      .25 {
-        font-size: 200%;
+     .25 {
+        font-size: 85px;
       }
 
-      .permonth {
+     .permonth {
         padding-top: 40px;
       }
 
-    .blueboxtext ul {
+     .blueboxtext ul {
       padding-left: 0;
-    }
+      }
 
-    .blueboxtext li {
+     .blueboxtext li {
       border: 1px solid black;
       list-style: none;
 
       }
   
-
-    .blackbox {
+     .blackbox {
       background-color: black;
       height: 175px;
       width: 250px;
       color: white;
       list-style: none;
+      vertical-align: center;
       
-    }
+      }
 
-    .blackbox ul {
+     .blackbox ul {
       padding: 0;
       margin: 0;
     
-    }
+      }
 
-    .blackbox li {
+     .blackbox li {
       list-style: none;
       width: 100%;
-    }
+      padding-top: 8px;
+      padding-bottom: 8px;
 
-    .enterprise {
+      }
+
+     .enterprise {
       padding-top: 25px;
       padding-bottom: 50px;
-    }
 
-    .blackboxtext ul {
+      }
+
+     .blackboxtext ul {
       padding-left: 0;
-    }
 
-    .blackboxtext li {
+      }
+
+     .blackboxtext li {
       border: 1px solid black;
       list-style: none;
+
     }
 
+  .paragraphs {
+    width: 350px;
+    display: inline-block;
+    
 
-  .latin {
-    list-style: none;
-    display: block;
-    width: 30%;
-    float: left;
-    overflow: hidden;
 
   }
 
+  h3 {
+    font-weight: bold;
+    font-family: 'Roboto+Condensed';
+    display: inline-block;
+
+  }
+
+  .paragraph1 {
+      margin: 10px;
+      
+
+    }
+
+  .paragraph2 {
+      margin: 10px;
+    
+
+  }
+
+  .paragraph3 {
+    margin: 10px;
+    
+
+  }
+
+  .paragraph4 {
+    margin: 10px;
   
-  
+  }
+
+
 
   footer {
     width: 100%;
@@ -244,12 +273,13 @@ body {
     vertical-align: middle;
     padding-top: 20px;
     padding-bottom: -5px;
-  }
+  
+    }
 
-  .footertext a {
+    .footertext a {
     color: white;
     
-  }
+    }
 
 
   
