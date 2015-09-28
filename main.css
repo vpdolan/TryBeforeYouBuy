@@ -120,26 +120,36 @@ body {
         }
 
        .permonthgreen {
-          padding-top: 10px;
+          padding-top: 8px;
         }
 
       .greenboxtext ul {
         padding-left: 0;
+        color: #8080FF;
 
         }
 
       .greenboxtext li {
         padding-top: 5px;
         padding-bottom: 5px;
-        border: 1px solid black;
+        border: 1px solid #CCC;
         list-style: none;
         background-color: #DFDFDF;
-        
+       
         } 
 
         .buttongreen {
-          height: 45px;
-        }       
+          height: 50px;
+          
+        }
+
+        button {
+          border-radius: 40px;
+          border-size: 2px;
+          padding-top: 3px;
+          color: black;
+          background-color: white;
+        }
 
       .bluebox {
       background-color: #3937FF;
@@ -155,6 +165,7 @@ body {
       margin: 0;
       list-style: none;
       padding-left: 0;
+    
     }
 
       .bluebox li {
@@ -174,15 +185,16 @@ body {
       }
 
      .permonthblue {
-        padding-top: 10px;
+        padding-top: 8px;
       }
 
      .blueboxtext ul {
       padding-left: 0;
+      color: #8080FF;
       }
 
      .blueboxtext li {
-      border: 1px solid black;
+      border: 1px solid #CCC;
       list-style: none;
       padding-top: 5px;
       padding-bottom: 5px;
@@ -191,7 +203,7 @@ body {
       }
 
       .buttonblue {
-        height: 45px;
+        height: 50px;
       }
   
      .blackbox {
@@ -229,17 +241,17 @@ body {
       }
 
       .permonthblack {
-        padding-top: 10px;
+        padding-top: 8px;
       }
       
-
      .blackboxtext ul {
       padding-left: 0;
+      color: #8080FF;
 
       }
 
      .blackboxtext li {
-      border: 1px solid black;
+      border: 1px solid #CCC;
       list-style: none;
       padding-top: 5px;
       padding-bottom: 5px;
@@ -248,54 +260,47 @@ body {
     }
 
         .buttonblack {
-          height: 45px;
-          vertical-align: middle;
+          height: 50px;
           background-color: #F2F2F2;
-          
+          padding-bottom: 20px;
+      
         }
     
-
-  
-
-  .paragraphs {
-    width: 350px;
-    display: inline-block;
-    
-
-
-  }
-
   h3 {
     font-weight: bold;
     font-family: 'Roboto+Condensed';
     display: inline-block;
+    float: left;
 
   }
 
-  .paragraph1 {
-      margin: 10px;
-      
-
-    }
-
-  .paragraph2 {
-      margin: 10px;
-    
-
-  }
-
-  .paragraph3 {
+  .paragraphs {
     margin: 10px;
-    
-
+    height: 600px;
+    font-size: 13px;
   }
 
-  .paragraph4 {
-    margin: 10px;
+  .paragraphsetone {
+    text-align: left;
+    display: inline-block;
+    overflow: auto;
+    margin-left: 341px;
+    color: #6666CC;
+    width: 340px;
+    padding-right: 1px;
+    padding: 25px;
   
   }
 
+  .paragraphsettwo {
+      text-align: left;
+      display: inline-block;
+      overflow: auto;
+      color: #6666CC;
+      width: 340px;
+      padding-left: 5px;
 
+  }
 
   footer {
     width: 100%;
@@ -307,6 +312,8 @@ body {
     vertical-align: middle;
     padding-top: 20px;
     padding-bottom: -5px;
+    margin-right: 6px;
+    margin-left: 6px;
   
     }
 
