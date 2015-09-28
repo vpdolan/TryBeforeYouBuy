@@ -147,8 +147,10 @@ body {
           border-radius: 40px;
           border-size: 2px;
           padding-top: 3px;
+          padding-bottom: 5px;
           color: black;
           background-color: white;
+
         }
 
       .bluebox {
